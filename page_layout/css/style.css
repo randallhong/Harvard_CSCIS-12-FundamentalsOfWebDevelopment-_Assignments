@@ -1,0 +1,111 @@
+/* line 2, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+#header {
+  background-image: url(../images/masthead.png);
+  background-repeat: no-repeat;
+  background-color: black;
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 50px;
+  width: 95%;
+  margin-left: 2.5%; }
+
+/* line 12, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+#snav {
+  font-family: cursive; }
+  /* line 14, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+  #snav ul {
+    list-style: none; }
+  /* line 16, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+  #snav ul li {
+    display: inline;
+    padding-left: 2em; }
+    /* line 19, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+    #snav ul li a {
+      text-decoration: none;
+      color: gray; }
+      /* line 22, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+      #snav ul li a:hover {
+        text-decoration: underline;
+        color: red; }
+
+/* line 25, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+hr {
+  width: 95%;
+  height: 10px;
+  display: block;
+  background-color: darkcyan; }
+
+/* line 30, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+#cnav {
+  font-family: fantasy;
+  float: left;
+  width: 25%;
+  color: gray; }
+  /* line 35, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+  #cnav ul {
+    list-style: none; }
+    /* line 37, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+    #cnav ul ul li a {
+      text-decoration: none;
+      color: gray; }
+      /* line 40, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+      #cnav ul ul li a .youarehere {
+        color: orange; }
+      /* line 42, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+      #cnav ul ul li a:hover {
+        background-color: lightblue; }
+
+/* line 44, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+#bnav {
+  padding-bottom: 10px;
+  font-family: cursive; }
+  /* line 47, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+  #bnav ul {
+    display: inline;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0; }
+    /* line 52, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+    #bnav ul li {
+      display: inline; }
+      /* line 54, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+      #bnav ul li a {
+        text-decoration: none;
+        color: gray; }
+        /* line 57, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+        #bnav ul li a:hover {
+          color: red;
+          text-decoration: underline; }
+    /* line 60, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+    #bnav ul ul li {
+      background-image: url(../images/arrow.gif);
+      background-repeat: no-repeat;
+      padding-left: 25px;
+      background-position: left; }
+
+/* line 65, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+#dcontent {
+  font-family: fantasy; }
+  /* line 67, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+  #dcontent h4 {
+    padding-bottom: 0;
+    margin-bottom: 0px; }
+  /* line 70, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+  #dcontent p {
+    margin-top: 0px; }
+
+/* line 72, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+#layout {
+  float: right;
+  width: 70%; }
+
+/* line 75, /Users/Jimmy/Desktop/page_layout/css/style.sass */
+#footer {
+  color: gray;
+  clear: both;
+  width: 100%;
+  margin-left: 2.5%;
+  font-family: cursive; }
+
+/*# sourceMappingURL=style.css.map */

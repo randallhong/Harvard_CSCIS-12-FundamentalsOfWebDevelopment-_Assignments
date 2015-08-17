@@ -1,0 +1,188 @@
+
+<!-- this is the markup document that should contains a form
+     that represents the choices available on the 
+     Dado Tea Lunch Special paper form -->
+     
+<!-- remember to use action="http://cscis12.dce.harvard.edu/echo" for the form element -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="form.css">
+	<title>Dado Tea Lunch Special</title>
+</head>
+<body>
+<form action="http://cscie12.dce.harvard.edu/echo" method="post">
+	
+    <h1>Dado Tea Lunch Special</h1>
+    <div id="time">
+	Moday--Friday<br/>
+	11am--3pm<br/>
+	$7.24
+	Includes sandwich, snack, and drink.<br/>
+    </div>
+    <br/>
+	<fieldset>
+		<legend>Order Information</legend>
+		<b>Name</b><br/>
+		<input type="text" name="name"></input><br/><br/>
+		<input type="radio" name="where" id="radio_here" value="here"/>
+    	<label for="radio_here">Here</label>
+    	<br/>
+    	<input type="radio" id="radio_togo" name="where" value="togo"/>
+    	<label for="radio_togo">To Go</label>
+	</fieldset>
+    <br/>
+	<fieldset>
+		<legend>Sandwiches</legend>
+		<br/>
+		<b>Monday</b><br/>
+		<input type="radio" name="monday"  id="radio_pestosalad" value="pestosalad"/>
+    	<label for="radio_pestosalad">Pesto Tofu Salad</label>
+    	<br/>
+    	<input type="radio" name="monday" id="radio_chickensalad" value="chickensalad"/>
+    	<label for="radio_chickensalad">Chicken Salad</label>
+    	<br/>
+    	<br/>
+    	<b>Tuesday</b><br/>
+		<input type="radio" name="tuesday"  id="radio_greeksalad" value="pestosalad"/>
+    	<label for="radio_greeksalad">Greek Salad Wrap</label>
+    	<br/>
+    	<input type="radio" name="tuesday" id="radio_tunasalad" value="tunasalad"/>
+    	<label for="radio_tunasalad">Tuna Salad</label>
+    	<br/>
+    	<br/>
+    	<b>Wednesday</b><br/>
+		<input type="radio" name="wednesday" id="radio_hummus" value="hummus"/>
+    	<label for="radio_hummus">Hummus</label>
+    	<br/>
+    	<input type="radio" name="wednesday" id="radio_turkey" value="turkey"/>
+    	<label for="radio_tunasalad">Turkey</label>
+    	<br/>
+    	<br/>
+    	<b>Thursday</b><br/>
+		<input type="radio" name="thursday" id="radio_carrotwrap" value="carrotwrap"/>
+    	<label for="radio_hummus">Carrot-Ginger Wrap</label>
+    	<br/>
+    	<input type="radio" name="thursday" id="radio_eggsalad" value="eggsalad"/>
+    	<label for="radio_tunasalad">Egg Salad</label>
+    	<br/>
+    	<br/>
+    	<b>Friday</b><br/>
+		<input type="radio" name="friday" id="radio_veggie" value="veggie"/>
+    	<label for="radio_hummus">Veggie</label>
+    	<br/>
+    	<input type="radio" name="friday" id="radio_tunasalad2" value="tunasalad"/>
+    	<label for="radio_tunasalad">Tuna Salad</label>
+    	<br/>
+    	<br/>
+	</fieldset>
+    <br/>
+	<fieldset>
+		<legend>Sandwiches Options</legend>
+		<br/>
+		<b>Breads</b><br/>
+		<input type="radio" name="breads"  id="radio_grain" value="7grain"/>
+    	<label for="radio_grain">7 Grain</label>
+    	<br/>
+    	<input type="radio" name="breads" id="radio_french" value="french"/>
+    	<label for="radio_french">French</label>
+    	<br/>
+    	<br/>
+    	<b>Cheese</b>(add 50)<br/>
+		<input type="radio" name="cheese"  id="radio_cheese" value="cheese"/>
+    	<label for="radio_cheese">No Cheese</label>
+    	<br/>
+    	<input type="radio" name="cheese" id="radio_feta" value="feta"/>
+    	<label for="radio_feta">Tuna Salad</label>
+    	<br/>
+        <input type="radio" name="cheese" id="radio_freshmozzarella" value="freshmozzarella"/>
+        <label for="radio_feta">Fresh Mozzarella</label>
+        <br/>
+        <input type="radio" name="cheese" id="radio_swiss" value="swiss"/>
+        <label for="radio_swiss">Swiss</label>
+        <br/>
+        <br/>
+        <b>Spreads</b><br/>
+        <input type="checkbox" name="spreads" id="ckb_mayonnaise" value="mayonnaise"/>
+        <label for="ckb_mayonnaise">Mayonnaise</label>
+        <br/>
+        <input type="checkbox" name="spreads" id="ckb_honeymustard" value="honeymustard"/>
+        <label for="ckb_honeymustard">Honey Mustard</label>
+        <br/>
+        <input type="checkbox" name="spreads" id="ckb_pesto" value="pesto"/>
+        <label for="ckb_pesto">Pesto</label>
+        <br/>
+        <input type="checkbox" name="spreads" id="ckb_olive" value="olive"/>
+        <label for="ckb_olive">Olive</label>
+        <br/>
+    	<br/>
+    	 <b>Fillings</b><br/>
+        <input type="checkbox" name="fillings" id="ckb_tomato" value="tomato"/>
+        <label for="ckb_tomato">Tomato</label>
+        <br/>
+        <input type="checkbox" name="fillings" id="ckb_mixedgreens" value="mixedgreens"/>
+        <label for="ckb_mixedgreens">Mixed Greens</label>
+        <br/>
+        <input type="checkbox" name="fillings" id="ckb_Cucumber" value="cucumber"/>
+        <label for="ckb_pesto">Cucumber</label>
+        <br/>
+        <input type="checkbox" name="fillings" id="ckb_redonion" value="redonion"/>
+        <label for="ckb_onion">Olive</label>
+        <br/>
+        <br/>
+	</fieldset>
+    <br/>
+    <fieldset>
+        <legend>Snack and Drink</legend>
+        <br/>
+        <b>Snacks</b><br/>
+        <input type="radio" name="snacks" id="radio_apple" value="apple"/>
+        <label for="radio_apple">Apple</label>
+        <br/>
+        <input type="radio" id="radio_banana" name="snacks" value="banana"/>
+        <label for="radio_banana">Banana</label>
+        <br/>
+        <input type="radio" id="radio_potatochip" name="snacks" value="potatochip"/>
+        <label for="radio_banana">Potato Chip</label>
+        <br/>
+        <br/>
+        <b>Drinks</b><br/>
+        <select name="drinks">
+            <optgroup label="Black Tea">
+                <option>Hot Black Tea - Keemum</option>
+                <option>Hot Black Tea - Decaf Keemum</option>
+                <option>Iced Black Tea - Keemum</option>
+                <option>Iced Black Tea - Decaf Keemum</option>
+            </optgroup>
+            <optgroup label="Green Tea">
+                <option>Hot Green Tea - Sencha</option>
+                <option>Hot Green Tea -  Decaf</option>
+                <option>Iced Green Tea - Sencha</option>
+                <option>Iced Green Tea - Decaf</option>
+            </optgroup>
+            <optgroup label="Coffee">
+                <option>Hot Coffee</option>
+                <option>Hot Decaf Coffee</option>
+                <option>Iced Coffee</option>
+                <option>Iced Decaf Coffee</option>
+            </optgroup>
+        </select>
+        <br/>
+        <br/>
+        <b>Size</b><br/>
+        <input type="checkbox" name="size" id="ckb_regular" value="regularsize"/>
+        <label for="ckb_regular">Regular drink</label>
+        <br/>
+        <input type="checkbox" name="size" id="ckb_large" value="largesize"/>
+        <label for="ckb_large">Large drink</label>
+        <br/>
+        <br/>
+       
+    </fieldset>
+    <br/>
+    <div class="btn">
+     <input id="btn" type="submit" name="action" value="Place Order">
+    </div>
+</form>
+</body>
+</html>

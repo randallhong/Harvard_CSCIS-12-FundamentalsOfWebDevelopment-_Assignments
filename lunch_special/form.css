@@ -1,0 +1,52 @@
+h1
+{
+	font-family:fantasy;
+	color: green;
+	font-style: italic;
+	font-weight: bolder;
+	text-align: center;
+}
+#time{
+    margin-left: 100px
+}
+legend
+{
+	color: orange;
+	font-family: Times;
+	font-size: 120%;
+}
+p
+{
+	font-family: Arial;
+	margin-left: 5cm;
+	font-size: 80%;
+}
+optgroup
+{
+	font-style: italic;
+	color: silver;
+}
+option
+{
+	font-style: normal;
+	color: blue;
+}
+fieldset
+{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#submitform
+{
+	margin-left: 5cm;
+}
+div.btn{
+    width: 91%
+}
+#btn{
+    float: right;
+    font-size: 1em;
+    color:orangered;
+    background-color: greenyellow
+}

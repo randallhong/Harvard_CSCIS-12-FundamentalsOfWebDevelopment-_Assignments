@@ -1,0 +1,63 @@
+/*
+  CSS file for books.html
+*/
+body
+{
+	background-color: lime;
+}
+h1 {
+	border: thick outset #900;
+	color: orange;
+	text-align: center;
+	background-color: white;
+	margin-right: 30%;
+	margin-left: 30%;
+}
+li.date{
+	font-size: 80%;
+}
+li.isbn{
+	font-size: 80%;
+}
+li.book {
+	border:thick outset #900;
+	margin-bottom: 1em;
+	background-color: white;
+}
+li.publisher{
+	font-variant:small-caps;
+}
+li{
+	list-style-type: none;
+}
+li ul li {
+	list-style-type: none;
+	height: 2em;
+	
+}
+a{
+	text-decoration: none;
+}
+.bookcover{
+	float: right;
+	clear:right;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-right: 0.5em
+}
+a:hover
+{
+	background-color: blue;
+	color:white;
+}
+
+.author
+{
+	color:orange;
+	margin-top: 0.5em;
+}
+.title{
+	color:blue;
+	font-weight: bold;
+	padding:0em 0em 0em 0em;
+}

@@ -1,0 +1,23 @@
+
+/* CSS Rules for harvard_dce.html */
+h1{
+    color:darkred;
+}
+div{
+    border-top: thick solid darkred;
+    padding-bottom: 20px;
+    
+}
+div h2{
+    color:darkred;
+}
+#footer{
+    float: left;
+    clear:both;
+    padding-top: 10px;
+}
+#start{
+    border: none;
+    height:150px;
+    
+}

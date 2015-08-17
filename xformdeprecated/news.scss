@@ -1,0 +1,49 @@
+/* news.css */
+body{
+    background-color: #3D4D7A;
+}
+div#title{
+background-color: darkblue;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1;
+    height:130;
+    font-family: Calibri,Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    color: white;
+    vertical-align: middle;
+}
+#news{
+    background-color: white;
+    margin-left: 10.03%;
+    width: 80%;
+}
+font.bbc {
+    font-family: Calibri,Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    color: white;
+    font-size:35;
+    font-weight:bolder;
+    width: 80%;
+    margin-left: 10;
+}
+font.newstitle{
+    color:#990000;
+    font-size: 28;
+    font-family: Times New Roman,Times,serif;
+    font-weight: bold;
+    margin-left: 10;
+}
+a img{
+    border: none;
+    margin-left: 33.5%;
+    vertical-align:middle;
+    margin-top: 10;
+}
+p.title{
+    font-family: Calibri,Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    color: white;
+    background-color: darkblue;
+    width:70%;
+    margin-left: 1%;
+    font-size: 20;
+}
